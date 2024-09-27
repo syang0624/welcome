@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/welcome/static/css/main.50c98de0.css",
-    "main.js": "/welcome/static/js/main.9fc5be30.js",
+    "main.js": "/welcome/static/js/main.8a94fd74.js",
     "static/css/487.bb36206c.chunk.css": "/welcome/static/css/487.bb36206c.chunk.css",
-    "static/js/487.7ae187c0.chunk.js": "/welcome/static/js/487.7ae187c0.chunk.js",
+    "static/js/487.1a3e13c7.chunk.js": "/welcome/static/js/487.1a3e13c7.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/welcome/static/css/990.c6a7ee28.chunk.css",
-    "static/js/990.567a0b93.chunk.js": "/welcome/static/js/990.567a0b93.chunk.js",
+    "static/js/990.e794688d.chunk.js": "/welcome/static/js/990.e794688d.chunk.js",
     "static/media/germany.png": "/welcome/static/media/germany.a8c63505798c90b6345e.png",
     "static/media/linearAlgebra.webp": "/welcome/static/media/linearAlgebra.b36f3ba117af67d9449b.webp",
     "static/media/pca.webp": "/welcome/static/media/pca.6f5c066dcc295598d1e7.webp",
@@ -26,14 +26,14 @@
     "static/media/aliveLogo.webp": "/welcome/static/media/aliveLogo.40d27657627b0fdf7d28.webp",
     "index.html": "/welcome/index.html",
     "main.50c98de0.css.map": "/welcome/static/css/main.50c98de0.css.map",
-    "main.9fc5be30.js.map": "/welcome/static/js/main.9fc5be30.js.map",
+    "main.8a94fd74.js.map": "/welcome/static/js/main.8a94fd74.js.map",
     "487.bb36206c.chunk.css.map": "/welcome/static/css/487.bb36206c.chunk.css.map",
-    "487.7ae187c0.chunk.js.map": "/welcome/static/js/487.7ae187c0.chunk.js.map",
+    "487.1a3e13c7.chunk.js.map": "/welcome/static/js/487.1a3e13c7.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/welcome/static/css/990.c6a7ee28.chunk.css.map",
-    "990.567a0b93.chunk.js.map": "/welcome/static/js/990.567a0b93.chunk.js.map"
+    "990.e794688d.chunk.js.map": "/welcome/static/js/990.e794688d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50c98de0.css",
-    "static/js/main.9fc5be30.js"
+    "static/js/main.8a94fd74.js"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/welcome/static/css/main.80016af8.css",
+    "main.css": "/welcome/static/css/main.50c98de0.css",
     "main.js": "/welcome/static/js/main.9fc5be30.js",
     "static/css/487.bb36206c.chunk.css": "/welcome/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/welcome/static/js/487.7ae187c0.chunk.js",
@@ -25,7 +25,7 @@
     "static/media/skill.svg": "/welcome/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/aliveLogo.webp": "/welcome/static/media/aliveLogo.40d27657627b0fdf7d28.webp",
     "index.html": "/welcome/index.html",
-    "main.80016af8.css.map": "/welcome/static/css/main.80016af8.css.map",
+    "main.50c98de0.css.map": "/welcome/static/css/main.50c98de0.css.map",
     "main.9fc5be30.js.map": "/welcome/static/js/main.9fc5be30.js.map",
     "487.bb36206c.chunk.css.map": "/welcome/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/welcome/static/js/487.7ae187c0.chunk.js.map",
@@ -33,7 +33,7 @@
     "990.567a0b93.chunk.js.map": "/welcome/static/js/990.567a0b93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80016af8.css",
+    "static/css/main.50c98de0.css",
     "static/js/main.9fc5be30.js"
   ]
 }

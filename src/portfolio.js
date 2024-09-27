@@ -19,9 +19,9 @@ const illustration = {
 
 const greeting = {
   username: "Steven Yang",
-  title: "Hi all, I'm Steven",
+  title: "Hello there, I'm Steven",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I am a passionate software engineer and Minerva University student, enthusiastic about AI 🤖, web development 💻, and sharing knowledge 📚 to help the community thrive 🌱."
   ),
   resumeLink: "https", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -41,14 +41,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "I focus on web development and data analysis, with a strong passion for expanding my knowledge in the tech world.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build dynamic and engaging front-end user interfaces for web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Perform data analysis to uncover insights and drive decision-making through visualization and statistical methods"
+    ),
+    emoji(
+      "⚡ Integrate third-party services like Firebase, AWS, and Digital Ocean"
     )
   ],
 
@@ -123,8 +126,11 @@ const educationInfo = {
       logo: require("./assets/images/minervaLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2020 - May 2026",
-      desc: "LOREM",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "GPA: 3.79 / 4.00",
+      descBullets: [
+        "Minerva University is an innovative global institution offering a rigorous, interdisciplinary education that emphasizes critical thinking, problem-solving, and experiential learning across seven countries.",
+        "I took a two-year leave of absence to fulfill mandatory military service in Korea."
+      ]
     }
   ]
 };
@@ -160,10 +166,13 @@ const workExperiences = {
       company: "AKA AI",
       companylogo: require("./assets/images/akaLogo.png"),
       date: "Aug 2022 – Jul 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Achieved a 75% reduction in build time by developing the Muse EOS X Tesla chatbot website using VITE.",
+        "Boosted data efficiency by 25% for Musio English Korea by redesigning data flow and integrating Google APIs.",
+        "Cut website response time by 27% by building an optimized dashboard and analysis tab for a mental health app.",
+        "Reduced AWS usage and costs by 23%, maintaining the savings over a 6-month period through resource optimization.",
+        "Led a Team of 8 with 6 different nationalities, planned the development schedule, and reported to the CEO."
       ]
     },
     {
@@ -171,21 +180,21 @@ const workExperiences = {
       company: "TigerGraph",
       companylogo: require("./assets/images/tigergraphLogo.png"),
       date: "May 2022 – Aug 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Produced 2 web apps to accelerate PoV and service cycles, and presented to a leading US satellite TV company.",
+        "Enhanced TigerGraph’s graph algorithms library by building the Leiden from Louvain and revising 15 starter kits."
       ]
     },
     {
-      role: "Software Engineer Intern",
+      role: "Software Engineering Intern",
       company: "Sandbox Network",
       companylogo: require("./assets/images/sandboxLogo.png"),
       date: "Oct 2021 – Dec 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Analyzed over 50 YouTube video thumbnails to quantify visual complexity, using image processing.",
+        "Led a team of 6 and pitched the results to 4 C-level executives and the manager at the end of the internship."
       ]
     },
     {
@@ -193,10 +202,10 @@ const workExperiences = {
       company: "Laplace Technologies",
       companylogo: require("./assets/images/laplaceLogo.png"),
       date: "Jul 2021 – Sep 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Increased customer segmentation accuracy by 15% by developing a Cohort, RFM/LTV analysis model.",
+        "Analyzed a sample of 10,000 consumer data points using scikit-learn and MySQL to uncover key trends and insights."
       ]
     }
   ]
@@ -223,7 +232,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://alive.akaai.io/"
         }
         //  you can add extra buttons here.
       ]
@@ -235,7 +244,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://tesla.eos.akaintelligence.com/"
         }
       ]
     },
@@ -246,7 +255,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://musioenglish.kr/"
         }
       ]
     },
@@ -257,18 +266,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/notionLogo.png"),
-      projectName: "Notion X CodeSandbox",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/syang0624/MinervaXSandbox-Youtube-Comment-Video-Analysis"
         }
       ]
     },
@@ -279,7 +277,18 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://devpost.com/software/buddy-72xe6l"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/notionLogo.png"),
+      projectName: "Notion X CodeSandbox",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/syang0624/HackMIT2021"
         }
       ]
     }
@@ -297,63 +306,61 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Advanced Web Dev",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      title: "Advanced Web Development",
+      subtitle: "Fall 2024 - IN PROGRESS",
       image: require("./assets/images/codepathLogoOne.png"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "CodePath Logo",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
       title: "Intermediate Software Engineering",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      subtitle: "Summer 2024 - Passed with Honors",
       image: require("./assets/images/codepathLogoTwo.png"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "CodePath Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certificate",
+          url: "https://media.licdn.com/dms/image/D562DAQFOVaan7JVm4g/profile-treasury-document-images_1920/1/1725460870398?e=1728518400&v=beta&t=h8gQZPUrJs1CqUIlcw1yeupZgmoCr6NVL_598bv8qr0"
         }
       ]
     },
     {
       title: "Headstarter AI SWE Fellow",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle: "Summer 2024",
       image: require("./assets/images/headstarterLogo.png"),
-      imageAlt: "PWA Logo",
+      imageAlt: "Headstarter Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        // {name: "Certification", url: ""},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
       ]
     },
     {
       title: "AWS Machine Learning Scholarship Recipient",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle: "Summer 2021",
       image: require("./assets/images/awsLogo.png"),
-      imageAlt: "PWA Logo",
+      imageAlt: "AWS Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        // {name: "Certification", url: ""},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
       ]
     }
   ],
@@ -369,63 +376,43 @@ const schoolProjectSection = {
 
   schoolProjectCards: [
     {
-      title: "SOME KIND OF AWESOME",
+      title: "Foot Traffic Modeling",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codepathLogoOne.png"),
-      imageAlt: "Google Code-In Logo",
+        "It was a Linear Algebra assignment where we applied Markov Chains to model foot traffic within a building.",
+      image: require("./assets/images/linearAlgebra.webp"),
+      imageAlt: "Linear Algebra",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Project",
+          url: "https://drive.google.com/file/d/1Qi26hrYuQa5cH5ZrhTnpxPBOJGDGGDbn/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Intermediate Software Engineering",
+      title: "Principle Landmarks",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/codepathLogoTwo.png"),
+        "This assignment focuses on using Principal Component Analysis (PCA) to reduce the dimensionality of images and visualize them in a 2D space, while exploring how well the reduced data can reconstruct the original images.",
+      image: require("./assets/images/pca.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Project",
+          url: "https://github.com/syang0624/CS156_Works/blob/main/LBA/Yang%2C%20Steven.%20LBA%20Assignment.pdf"
         }
       ]
     },
     {
-      title: "Headstarter AI SWE Fellow",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/headstarterLogo.png"),
-      imageAlt: "PWA Logo",
+      title: "Study Abroad in Germany",
+      subtitle:
+        "I spent a semester in Berlin, where I connected with German alumni from our university and discussed sustainability and policies in Germany as part of the city experience.",
+      image: require("./assets/images/germany.png"),
+      imageAlt: "germany",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    },
-    {
-      title: "AWS Machine Learning Scholarship Recipient",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/awsLogo.png"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        // {name: "Certification", url: ""},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
       ]
     }
   ],

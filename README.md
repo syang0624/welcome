@@ -27,6 +27,9 @@ yarn start
 
 # To build
 yarn build
+
+# To Deploy
+yarn run deploy
 ```
 
 ## Deployment

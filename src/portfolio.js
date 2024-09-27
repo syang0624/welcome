@@ -21,7 +21,7 @@ const greeting = {
   username: "Steven Yang",
   title: "Hello there, I'm Steven",
   subTitle: emoji(
-    "I am a passionate software engineer and Minerva University student, enthusiastic about AI 🤖, web development 💻, and sharing knowledge 📚 to help the community thrive 🌱."
+    "I’m a passionate software engineer and Minerva University student, excited about AI 🤖, web development 💻, and sharing knowledge 📚. I love helping others discover new learning opportunities 🌍 and become their best selves 💪."
   ),
   resumeLink: "https", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true

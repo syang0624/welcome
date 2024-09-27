@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/welcome/static/css/main.80016af8.css",
+    "main.js": "/welcome/static/js/main.9fc5be30.js",
+    "static/css/487.bb36206c.chunk.css": "/welcome/static/css/487.bb36206c.chunk.css",
+    "static/js/487.7ae187c0.chunk.js": "/welcome/static/js/487.7ae187c0.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/welcome/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.567a0b93.chunk.js": "/welcome/static/js/990.567a0b93.chunk.js",
+    "static/media/germany.png": "/welcome/static/media/germany.a8c63505798c90b6345e.png",
+    "static/media/linearAlgebra.webp": "/welcome/static/media/linearAlgebra.b36f3ba117af67d9449b.webp",
+    "static/media/pca.webp": "/welcome/static/media/pca.6f5c066dcc295598d1e7.webp",
+    "static/media/buddyLogo.png": "/welcome/static/media/buddyLogo.d89994f21c4798d33782.png",
+    "static/media/Montserrat-Regular.ttf": "/welcome/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/akaLogo.png": "/welcome/static/media/akaLogo.32d0a682e2049522ed97.png",
+    "static/media/resume.pdf": "/welcome/static/media/resume.1965c7b5d95e9d1ee913.pdf",
+    "static/media/sandboxLogo.png": "/welcome/static/media/sandboxLogo.03f9c065761473967edd.png",
+    "static/media/Agustina.woff": "/welcome/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/awsLogo.png": "/welcome/static/media/awsLogo.b8a7e1c781ebb7c627bd.png",
+    "static/media/musioenglishLogo.png": "/welcome/static/media/musioenglishLogo.a6ed1f5524b1e6183855.png",
+    "static/media/manOnTable.svg": "/welcome/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/welcome/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/welcome/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/notionLogo.png": "/welcome/static/media/notionLogo.b65050204f68f853ac01.png",
+    "static/media/minervaLogo.png": "/welcome/static/media/minervaLogo.253182d510c6d3426020.png",
+    "static/media/skill.svg": "/welcome/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/aliveLogo.webp": "/welcome/static/media/aliveLogo.40d27657627b0fdf7d28.webp",
+    "index.html": "/welcome/index.html",
+    "main.80016af8.css.map": "/welcome/static/css/main.80016af8.css.map",
+    "main.9fc5be30.js.map": "/welcome/static/js/main.9fc5be30.js.map",
+    "487.bb36206c.chunk.css.map": "/welcome/static/css/487.bb36206c.chunk.css.map",
+    "487.7ae187c0.chunk.js.map": "/welcome/static/js/487.7ae187c0.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/welcome/static/css/990.c6a7ee28.chunk.css.map",
+    "990.567a0b93.chunk.js.map": "/welcome/static/js/990.567a0b93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80016af8.css",
+    "static/js/main.9fc5be30.js"
+  ]
+}

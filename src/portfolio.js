@@ -223,24 +223,25 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "PROJECTS I HAVE WORKED ON, BOTH PROFESSIONALLY AND PERSONALLY",
   projects: [
     {
       image: require("./assets/images/aliveLogo.webp"),
       projectName: "Alive",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc:
+        "Alive is an app designed to support individuals with depression by improving their mental health through CBT-based AI chatbot sessions, mood tracking, and regular mental health assessments. I developed its frontend and managed the project.",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://alive.akaai.io/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/akaLogo.png"),
       projectName: "Muse EOS X Tesla",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc:
+        "Muse EOS (ExtraOrdinary Salesbot) is an AI chatbot created to help potential car buyers by recommending vehicles that best fit their needs. I worked on the frontend development, built the database, and performed data analysis.",
       footerLink: [
         {
           name: "Visit Website",
@@ -251,7 +252,8 @@ const bigProjects = {
     {
       image: require("./assets/images/musioenglishLogo.png"),
       projectName: "Musio English Korea",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc:
+        "Musio English Korea is an online English education platform. I was responsible for developing the frontend, payment system, event pages, and managing databases.",
       footerLink: [
         {
           name: "Visit Website",
@@ -262,7 +264,8 @@ const bigProjects = {
     {
       image: require("./assets/images/sandboxLogo.png"),
       projectName: "Thumbnail Analysis",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc:
+        "Conducted an analysis of more than 50 YouTube video thumbnails to measure visual complexity by applying image processing techniques.",
       footerLink: [
         {
           name: "Visit Website",
@@ -273,7 +276,8 @@ const bigProjects = {
     {
       image: require("./assets/images/buddyLogo.png"),
       projectName: "Buddy",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc:
+        "Worked with a team to build a meditation/study app, optimizing backend response time by 30% using Flask, and achieving 95% voice detection accuracy with Google Speech Recognition API.",
       footerLink: [
         {
           name: "Visit Website",
@@ -284,7 +288,8 @@ const bigProjects = {
     {
       image: require("./assets/images/notionLogo.png"),
       projectName: "Notion X CodeSandbox",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc:
+        "Developed backend response handling using the Notion API to create custom CodeSandbox links for students, reducing class preparation time by 80% and streamlining workflows; pitched the project to a team at Facebook.",
       footerLink: [
         {
           name: "Visit Website",
@@ -302,7 +307,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
@@ -372,7 +377,7 @@ const achievementSection = {
 const schoolProjectSection = {
   title: emoji("School Stuff  🏫 "),
   subtitle:
-    "School Projects, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "School Projects, Assignments, and Study Abroad Program that I have done !",
 
   schoolProjectCards: [
     {
@@ -493,8 +498,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle: "We're just an email away from each other.",
   // number: "(XXX) XXX-XXXX",
   email_address: "steven.yang@uni.minerva.edu"
 };

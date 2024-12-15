@@ -296,6 +296,18 @@ const bigProjects = {
           url: "https://github.com/syang0624/HackMIT2021"
         }
       ]
+    },
+    {
+      image: require("./assets/images/minervaLogo.png"),
+      projectName: "Capstone Creativity Explorartion",
+      projectDesc:
+        "Sang a musical number, Waving Through a Window, from the musical Dear Evan Hansen, for the Minerva Capstone Creativity Exploration.",
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://youtu.be/pbyyAwOdAns?si=dL4x15c6nRvpa4rn"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -312,22 +324,14 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Advanced Web Development",
-      subtitle: "Fall 2024 - IN PROGRESS",
+      subtitle: "Fall 2024 - Passed with Honors",
       image: require("./assets/images/codepathLogoOne.png"),
       imageAlt: "CodePath Logo",
       footerLink: [
-        // {
-        //   name: "Certification",
-        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        // },
-        // {
-        //   name: "Award Letter",
-        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        // },
-        // {
-        //   name: "Google Code-in Blog",
-        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        // }
+        {
+          name: "View Certificate",
+          url: "https://media.licdn.com/dms/image/v2/D562DAQHLU7sTHmi44w/profile-treasury-document-images_1920/profile-treasury-document-images_1920/1/1734238880436?e=1735171200&v=beta&t=0sCFOX_rOM1b70sis3Q99aEj2oNiFPTIn6OyokZZVE0"
+        }
       ]
     },
     {
@@ -403,6 +407,19 @@ const schoolProjectSection = {
         {
           name: "View Project",
           url: "https://github.com/syang0624/CS156_Works/blob/main/LBA/Yang%2C%20Steven.%20LBA%20Assignment.pdf"
+        }
+      ]
+    },
+    {
+      title: "Hierarchical Todo Application",
+      subtitle:
+        "A full-stack todo application that supports hierarchical tasks with drag-and-drop functionality. Built with React (Frontend) and Flask (Backend).",
+      image: require("./assets/images/todoLogo.png"),
+      imageAlt: "Todo Logo",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/syang0624/hierarchical-todo"
         }
       ]
     },

@@ -125,11 +125,10 @@ const educationInfo = {
       schoolName: "Minerva University",
       logo: require("./assets/images/minervaLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2020 - May 2027",
+      duration: "Expected May 2027",
       desc: "GPA: 3.9 / 4.0",
       descBullets: [
-        "Minerva University is an innovative global institution offering a rigorous, interdisciplinary education that emphasizes critical thinking, problem-solving, and experiential learning across seven countries.",
-        "I took leave of absence to fulfill mandatory military service in Korea."
+        "Minerva University is an innovative global institution offering a rigorous, interdisciplinary education that emphasizes critical thinking, problem-solving, and experiential learning across seven countries."
       ]
     }
   ]
@@ -225,6 +224,30 @@ const bigProjects = {
   title: "Projects",
   subtitle: "PROJECTS I HAVE WORKED ON, BOTH PROFESSIONALLY AND PERSONALLY",
   projects: [
+    {
+      image: require("./assets/images/chess.jpg"),
+      projectName: "Adaptive AI Chess",
+      projectDesc:
+        "Implemented adaptive AI strategies combining heuristics and efficient search techniques for realistic gameplay. Leveraged Minimax, alpha-beta pruning, and Zobrist hashing to optimize move evaluations by 45%.",
+      footerLink: [
+        {
+          name: "Visit Repo",
+          url: "https://github.com/syang0624/AI_Chess"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nasa.png"),
+      projectName: "Interactive Climate Change Text-Based RPG Game",
+      projectDesc:
+        "Awarded People’s Choice Award for NASA Space Apps Challenge Mountain View, CA, Nominated to Global. Developed 5-stage Text-RPG frontend, integrated LLaMA backend, and optimized response time by 70%.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/sbns/?tab=project"
+        }
+      ]
+    },
     {
       image: require("./assets/images/aliveLogo.webp"),
       projectName: "Alive",

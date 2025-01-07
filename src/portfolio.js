@@ -125,11 +125,11 @@ const educationInfo = {
       schoolName: "Minerva University",
       logo: require("./assets/images/minervaLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2020 - May 2026",
-      desc: "GPA: 3.79 / 4.00",
+      duration: "September 2020 - May 2027",
+      desc: "GPA: 3.9 / 4.0",
       descBullets: [
         "Minerva University is an innovative global institution offering a rigorous, interdisciplinary education that emphasizes critical thinking, problem-solving, and experiential learning across seven countries.",
-        "I took a two-year leave of absence to fulfill mandatory military service in Korea."
+        "I took leave of absence to fulfill mandatory military service in Korea."
       ]
     }
   ]

@@ -167,11 +167,10 @@ const workExperiences = {
       date: "Aug 2022 – Jul 2024",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Achieved a 75% reduction in build time by developing the Muse EOS X Tesla chatbot website using VITE.",
-        "Boosted data efficiency by 25% for Musio English Korea by redesigning data flow and integrating Google APIs.",
+        "Achieved a 75% reduction in build time by developing the Tesla sales chatbot website using VITE.",
+        "Boosted efficiency by 25% for AI Education service by redesigning data flow and connecting Google APIs.",
         "Cut website response time by 27% by building an optimized dashboard and analysis tab for a mental health app.",
-        "Reduced AWS usage and costs by 23%, maintaining the savings over a 6-month period through resource optimization.",
-        "Led a Team of 8 with 6 different nationalities, planned the development schedule, and reported to the CEO."
+        "Reduced AWS usage and costs by 23% after company-wide resource optimization."
       ]
     },
     {
@@ -181,21 +180,21 @@ const workExperiences = {
       date: "May 2022 – Aug 2022",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Produced 2 web apps to accelerate PoV and service cycles, and presented to a leading US satellite TV company.",
-        "Enhanced TigerGraph’s graph algorithms library by building the Leiden from Louvain and revising 15 starter kits."
+        "Produced 2 proof of value web apps, and presented to a leading US satellite TV company.",
+        "Enhanced graph algorithms library by developing and revising 15 starter kits."
       ]
     },
-    {
-      role: "Software Engineering Intern",
-      company: "Sandbox Network",
-      companylogo: require("./assets/images/sandboxLogo.png"),
-      date: "Oct 2021 – Dec 2021",
-      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Analyzed over 50 YouTube video thumbnails to quantify visual complexity, using image processing.",
-        "Led a team of 6 and pitched the results to 4 C-level executives and the manager at the end of the internship."
-      ]
-    },
+    // {
+    //   role: "Software Engineering Intern",
+    //   company: "Sandbox Network",
+    //   companylogo: require("./assets/images/sandboxLogo.png"),
+    //   date: "Oct 2021 – Dec 2021",
+    //   // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    //   descBullets: [
+    //     "Analyzed over 50 YouTube video thumbnails to quantify visual complexity, using image processing.",
+    //     "Led a team of 6 and pitched the results to 4 C-level executives and the manager at the end of the internship."
+    //   ]
+    // },
     {
       role: "Machine Learning and Data Science Intern",
       company: "Laplace Technologies",
@@ -203,8 +202,7 @@ const workExperiences = {
       date: "Jul 2021 – Sep 2021",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Increased customer segmentation accuracy by 15% by developing a Cohort, RFM/LTV analysis model.",
-        "Analyzed a sample of 10,000 consumer data points using scikit-learn and MySQL to uncover key trends and insights."
+        "Increased customer segmentation accuracy by 15% by developing a Cohort & Life Time Value analysis model."
       ]
     }
   ]
